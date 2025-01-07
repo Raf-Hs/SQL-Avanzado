@@ -16,3 +16,8 @@ SELECT titulo,artista FROM musica_pop;
 SELECT titulo,album FROM musica_rock
 UNION
 SELECT titulo,album FROM musica_pop;
+
+--Para considerar datos repetidos
+SELECT titulo,album FROM musica_rock
+UNION All
+SELECT titulo,album FROM musica_pop;
