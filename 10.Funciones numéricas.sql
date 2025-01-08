@@ -22,7 +22,7 @@ select p.id,
 
 --Truncate, Round
 --Truncate corta exacto el numero de decimales que le indiquemos
---Round redondea el numero de decimales que le indiquemos
+--Round redondea el numero de decimales que le indiquemos 
 use bd_peliculas;
 select p.id,
     Truncate(tan(p.calificacion),2) as tangente_corta,
